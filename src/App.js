@@ -7,6 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
+  console.log("enva",process.env.APP_KEY)
   return (
     <>
       <ToastContainer />
